@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionFileExit">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/file-exit.png</normaloff>:/images/file-exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+  </action>
+  <action name="actionHelpAbout">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/help-about.png</normaloff>:/images/help-about.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionViewNormal">
+   <property name="text">
+    <string>Normal</string>
+   </property>
+  </action>
+  <action name="actionViewAspectRatio">
+   <property name="text">
+    <string>Aspect ratio</string>
+   </property>
+  </action>
+  <action name="actionFileProperties">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/file-properties.png</normaloff>:/images/file-properties.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Properties</string>
+   </property>
+  </action>
+  <action name="actionFileWallpaper">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/image-wallpaper.png</normaloff>:/images/image-wallpaper.png</iconset>
+   </property>
+   <property name="text">
+    <string>Set &amp;wallpaper</string>
+   </property>
+   <property name="toolTip">
+    <string>Set wallpaper</string>
+   </property>
+  </action>
+  <action name="actionOptionsSettings">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/options-settings.png</normaloff>:/images/options-settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionFileCopyImage">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/edit-copy_image.png</normaloff>:/images/edit-copy_image.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy image</string>
+   </property>
+  </action>
+  <action name="actionFileCopyPath">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/edit-copy_path.png</normaloff>:/images/edit-copy_path.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy path</string>
+   </property>
+  </action>
+  <action name="actionFileOpenContainerFolder">
+   <property name="icon">
+    <iconset resource="../res/resource.qrc">
+     <normaloff>:/images/file-open_container_folder.png</normaloff>:/images/file-open_container_folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open container folder</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../res/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

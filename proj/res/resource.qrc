@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MainImage.png</file>
+        <file>background.png</file>
+        <file>images/file-exit.png</file>
+        <file>images/file-properties.png</file>
+        <file>images/help-about.png</file>
+        <file>images/menu-languages.png</file>
+        <file>images/image-wallpaper.png</file>
+        <file>images/options-settings.png</file>
+        <file>images/edit-copy_image.png</file>
+        <file>images/edit-copy_path.png</file>
+        <file>images/file-open_container_folder.png</file>
+    </qresource>
+</RCC>
