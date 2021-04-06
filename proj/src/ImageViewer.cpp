@@ -54,7 +54,7 @@ void ImageViewer::load(const QImage& img)
 	}
 
 	isDragging = false;
-	scaleFactor = 1.0;
+//	scaleFactor = 1.0;
 
 	if(!image.isNull() && sizeMode == SIZEMODE_NORMAL)
 		setCursor(QCursor(Qt::OpenHandCursor));
