@@ -80,7 +80,7 @@ void ImageViewer::wheelEvent(QWheelEvent* e)
 		{
 			float f;
 
-			f = scaleFactor + 0.001*e->delta();
+			f = scaleFactor + 0.01*e->delta();
 			if(f < 32.0/image.width())
 				f = 32.0/image.width();
 
